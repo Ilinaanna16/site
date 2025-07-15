@@ -1,0 +1,254 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Усадьба А.А.Фета</a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Услуги и цены</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О музее</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Добро пожаловать в Музей-усадьбу Афанасия Афанасьевича Фета</h1>
+                <p class="hero__subtitle">Филиал Курского областного краеведческого музея</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Купить билеты онлайн</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты музея</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images\images 2.jpg" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О музее</h2>
+                        <p class="about__text">Усадебный дом в Воробьевке — обитель поэтического вдохновения и тихого семейного уюта. Здесь чувствуется размеренный ход неспешной барской жизни: в час дня — завтрак, в шестом часу — обед, вечерний чай с яблочной пастилой — кулинарной гордостью Марьи Петровны. В столовой, залитой солнечным светом, сервирован стол, будто хлебосольные хозяева ждут гостей. Раздвижные ширмы с зеркалами отделяют столовую от гостиной, в которой когда-то играл П. И. Чайковский. Торжественное настроение парадных комнат сменяется тишиной и умиротворением: обстановка комнаты Марьи Петровны располагает к раздумьям и созерцанию.</p>
+                        <p class="about__text">Ежегодно в последней декаде мая в усадьбе проводится музыкально-поэтическое мероприятие «Соловьиная ночь». В первое воскресенье июля традиционно проходят «Фетовские чтения», на которые собираются писатели, поэты и любители литературы не только из Курской области, но и со всей России.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Музей учрежден в 2010 г. как филиал Курского областного краеведческого музея.</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Открыт после реставрации 2 декабря 2016 г.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Услуги и цены</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Экскурсия обзорная по музею</h3>
+                                <span class="menu-item__price">300₽</span>
+                            </div>
+                            <p class="menu-item__description">Стоимость на 1 чел. в группе от 20 до 30 чел.(руб.)</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Экскурсия тематическая по музею</h3>
+                                <span class="menu-item__price">270₽</span>
+                            </div>
+                            <p class="menu-item__description">Стоимость на 1 чел. в группе от 20 до 30 чел.(руб.)</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Экскурсия в Коренную пустынь</h3>
+                                <span class="menu-item__price">650₽</span>
+                            </div>
+                            <p class="menu-item__description">Стоимость на 1 чел. в группе от 20 до 30 чел.(руб.)</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Аудиогид по музею</h3>
+                                <span class="menu-item__price">0₽</span>
+                            </div>
+                            <p class="menu-item__description">При наличии входного билета</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Квест экскурсия, тематический вечер</h3>
+                                <span class="menu-item__price">400₽</span>
+                            </div>
+                            <p class="menu-item__description">Стоимость на 1 чел. в группе от 10 до 30 чел.(руб.)</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Входная плата для индивидуальных посетителей</h3>
+                                <span class="menu-item__price">25₽</span>
+                            </div>
+                            <p class="menu-item__description">Дети до 7 лет бесплатно</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Много раз посещала это место. Ландшафтный дизайн-воссторг. Большое количество роз и елей. Чисто, красиво и дышится там по другому.</p>
+                        <div class="review__author">
+                            <img src="images\photo 1.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Нэлли</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Рекомендую к посещению ценителям культуры и любителям литературы. Также на территории можно полюбоваться природой и подышать свежим воздухом. Обязательно берите экскурсию.</p>
+                        <div class="review__author">
+                            <img src="images\photo 2.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Сергей</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Очень хорошее место с положительными эмоциями, прекрасными пейзажами, чистым воздухом, отлично можно отдохнуть и наладиться этой красотой!</p>
+                        <div class="review__author">
+                            <img src="images\photo 3.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Мария</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>д. 1-я Воробьёвка, 81А</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7 (4712) 54-08-85</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>afanasyfet2024@yandex.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>вт-вс 09:00–17:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="http://instagram.com/" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="http://facebook.com/" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://t.me/iilinaa" class="social-link" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8265.062338448462!2d36.4750524462845!3d51.98468497286442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412fb2c133edb5f9%3A0xea75dcf0067894f6!2z0JzRg9C30LXQuS3Rg9GB0LDQtNGM0LHQsCDQkC4g0KTQtdGC0LA!5e0!3m2!1sru!2sru!4v1752609467660!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Усадьба А.А.Фета</span></a>
+                    <p class="footer__text">Филиал Курского областного краеведческого музея</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">О музее</a></li>
+                        <li><a href="#about" class="footer__link">Услуги и цены</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright. Все права защищены 2025</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
